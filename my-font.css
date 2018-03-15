@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'music-font';
+    font-display: fallback;
+    src:  url('fonts/music-font.eot?h8qgwh');
+    src:  url('fonts/music-font.eot?h8qgwh#iefix') format('embedded-opentype'),
+      url('fonts/music-font.ttf?h8qgwh') format('truetype'),
+      url('fonts/music-font.woff?h8qgwh') format('woff'),
+      url('fonts/music-font.svg?h8qgwh#music-font') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .music-icons {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'music-font' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Enable Ligatures ================ */
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    font-feature-settings: "liga";
+    -webkit-font-variant-ligatures: discretionary-ligatures;
+    font-variant-ligatures: discretionary-ligatures;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .trumpet:before {
+    content: "\e900";
+  }
+  .ukelele:before {
+    content: "\e901";
+  }
+  .piano:before {
+    content: "\e902";
+  }
+  .drums:before {
+    content: "\e903";

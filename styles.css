@@ -34,7 +34,8 @@ li > a {
 
 li:hover > a {
     background-color: darkorange;
-    transition: all .15s;
+    transition: background-color .15s;
+    border-radius: 20px;
 }
 
 main {

@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: sans-serif;
     background-color: #222222;
+    overflow-x: hidden;
 }
 
 ul {
@@ -30,12 +31,14 @@ li > a {
     padding: 20px 0;
     width: 100%;
     position: relative;
+    border: 10px solid transparent;
 }
 
 li:hover > a {
-    background-color: darkorange;
-    transition: background-color .15s;
-    border-radius: 20px;
+    color: darkorange;
+    transition: all .15s;
+    border-bottom: 10px solid darkorange;
+    border-bottom-left-radius: 0px;
 }
 
 main {

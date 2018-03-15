@@ -15,22 +15,31 @@ ul {
 
 li {
     width: 100%;
-    padding: 20px;
     font-size: 2rem;
     text-align: center;
     background-color: darkslategrey;
     color: white;
+
 }
 
 li > a {
     color: white;
     text-decoration: none;
     text-transform: capitalize;
+    display: block;
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+}
+
+li:hover > a {
+    background-color: darkorange;
+    transition: all .15s;
 }
 
 main {
     display: block;
-    color: yellowgreen;
+    color: darkorange;
     display: flex;
     justify-content: center;
     align-items: center;

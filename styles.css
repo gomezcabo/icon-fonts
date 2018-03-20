@@ -22,6 +22,10 @@ li {
 
 }
 
+i {
+    display: inline-block;
+}
+
 li > a {
     color: white;
     text-decoration: none;
@@ -50,12 +54,8 @@ main {
     text-align: center;
 }
 
-main i {
-    color: orange;
-    font-size: 10rem;
-}
-
 footer {
+    font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -54,6 +54,19 @@ main {
     text-align: center;
 }
 
+@keyframes rotate {
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+main i {
+    font-size: 10rem;
+    color: darkorange;
+    text-shadow: 4px 4px white;
+    animation: 0.5s linear infinite rotate;
+}
+
 footer {
     font-size: 1.5rem;
     display: flex;
